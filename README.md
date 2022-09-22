@@ -130,3 +130,8 @@ $ cd projret_dir (enter your project directory name)
 ```
 It will open the ot shell in your terminal.<br>
 Now, copy your my_run.tcl file contains and paste in that shell.<br>
+
+The output will look like this:
+<p align="left">
+  <img src="opentimer_run/ot1.png">
+</p>
