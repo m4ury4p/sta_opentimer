@@ -1,0 +1,7 @@
+clock clk 1000 50
+at clk 0 500 0 500
+at in 50 50 100 100
+slew clk 70 50 70 50
+slew in 150 100 150 100
+load out 40
+rat out 160 160 180 180
