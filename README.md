@@ -133,5 +133,5 @@ Now, copy your my_run.tcl file contains and paste in that shell.<br>
 
 The output will look like this:
 <p align="left">
-  <img src="opentimer_run/ot1.png">
+  <img src="opentimer_run/ot_1.png">
 </p>
