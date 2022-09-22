@@ -119,4 +119,14 @@ set_verilog my_netlist.v
 set_timing my_netlist.timing
 init_timer
 ```
-and other files my_early.lib and my_late.lib files which are uploaded in this repository.
+and other files my_early.lib and my_late.lib files which are uploaded in this repository.<br>
+
+Now, to run he simulation
+open your proect directory and type the following in terminal:
+```
+$ ./../OpenTimer/bin/ot-shell
+$ cd ..
+$ cd projret_dir (enter your project directory name) 
+```
+It will open the ot shell in your terminal.<br>
+Now, copy your my_run.tcl file contains and paste in that shell.<br>
