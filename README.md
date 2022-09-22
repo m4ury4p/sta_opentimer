@@ -122,7 +122,7 @@ init_timer
 and other files my_early.lib and my_late.lib files which are uploaded in this repository.<br>
 
 Now, to run he simulation
-open your proect directory and type the following in terminal:
+open your project directory and type the following in terminal:
 ```
 $ ./../OpenTimer/bin/ot-shell
 $ cd ..
