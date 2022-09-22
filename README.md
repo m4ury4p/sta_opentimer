@@ -18,3 +18,17 @@ When we use miniimum require time, the slack is called minimum slack.<br>
 
 ### Static timing Analysis using Opentimer:
 
+## We will be using a tool named opentimer to analyse timing:<br>
+
+To install this tool, write following commands in terminal:
+```
+$ git clone https://github.com/OpenTimer/OpenTimer.git
+$ cd OpenTimer
+$ mkdir build
+$ cd build
+$ cmake ../
+$ make 
+$ make test
+
+```
+If the test run is successfull, we can start the analysis.
