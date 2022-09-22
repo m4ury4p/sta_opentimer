@@ -126,7 +126,7 @@ open your project directory and type the following in terminal:
 ```
 $ ./../OpenTimer/bin/ot-shell
 $ cd ..
-$ cd projret_dir (enter your project directory name) 
+$ cd project_dir (enter your project directory name) 
 ```
 It will open the ot shell in your terminal.<br>
 Now, copy your my_run.tcl file contains and paste in that shell.<br>
