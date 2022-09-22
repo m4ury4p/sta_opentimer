@@ -92,5 +92,31 @@ my_dff_xsize80 f2 ( .d(n6), .ck(clk), .q(out) );
 endmodule
 
 ```
-
-
+blank.spef<br>
+```
+*SPEF "IEEE 1481-1998"
+*DESIGN "my_module"
+*DATE "Tue Sep 25 11:51:50 2012"
+*VENDOR "TAU 2015 Contest"
+*PROGRAM "Benchmark Parasitic Generator"
+*VERSION "0.0"
+*DESIGN_FLOW "NETLIST_TYPE_VERILOG"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER [ ]
+*T_UNIT 1 PS
+*C_UNIT 1 FF
+*R_UNIT 1 KOHM
+*L_UNIT 1 UH
+```
+my_run.tcl<br>
+```
+set_num_threads 1
+set_early_celllib my_early.lib
+set_late_celllib my_late.lib
+set_spef blank.spef
+set_verilog my_netlist.v
+set_timing my_netlist.timing
+init_timer
+```
+and other files my_early.lib and my_late.lib files which are uploaded in this repository.
