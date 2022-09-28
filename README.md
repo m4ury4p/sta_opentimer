@@ -112,12 +112,11 @@ blank.spef<br>
 my_run.tcl<br>
 ```
 set_num_threads 1
-set_early_celllib my_early.lib
-set_late_celllib my_late.lib
-set_spef blank.spef
-set_verilog my_netlist.v
-set_timing my_netlist.timing
-init_timer
+read_celllib -min my_early.lib
+read_celllib -max my_late.lib
+read_spef blank.spef
+read_verilog my_netlist.v
+read_timing my_netlist.timing
 ```
 and other files my_early.lib and my_late.lib files which are uploaded in this repository.<br>
 
